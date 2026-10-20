@@ -16,8 +16,6 @@ A valid comment must start with `/*` and end with `*/`.
 
 ## State Diagram
 
-![Mealy Machine for C-Style Comments](mealy_c_style_comments_graph.png)
-
 Each transition is labeled using the format `input / output`.
 
 - `0` — The closing delimiter has not just been completed.
