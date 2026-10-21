@@ -52,22 +52,6 @@ The program will display test results in the terminal and generate the state dia
 | `/*a*//` | REJECT | Extra character after the comment |
 | `//aaaa` | REJECT | Does not start with `/*` |
 
-## How It Works
-
-1. The machine starts at `q0`.
-2. It reads `/` and transitions to `q1`.
-3. It reads `*` and transitions to `q2`, entering the comment body.
-4. The machine processes the characters inside the comment using `q2` and `q3`.
-5. When it reads `/` immediately after an asterisk, it completes the closing delimiter `*/`, outputs `1`, and transitions to `q4`.
-6. If the input ends in `q4`, the comment is accepted. If additional characters follow, the machine rejects the input.
-
-## Project Structure
-
-```text
-.
-├── README.md
-├── mealy_c_style_comments.py
-└── mealy_c_style_comments_graph.png
 ```
 ## Program Output
 
