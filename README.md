@@ -55,8 +55,9 @@ The program will display test results in the terminal and generate the state dia
 ```
 ## Program Output
 
-![alt text](./Image/Program_Output.png)
+
+Image/Program_Output.png
 
 ## Graph
 
-![alt text](./Image/Graph.jpg)
+Image/Graph.jpg
