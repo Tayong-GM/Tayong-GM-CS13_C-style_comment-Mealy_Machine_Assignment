@@ -52,12 +52,11 @@ The program will display test results in the terminal and generate the state dia
 | `/*a*//` | REJECT | Extra character after the comment |
 | `//aaaa` | REJECT | Does not start with `/*` |
 
-```
+
 ## Program Output
 
-
-Image/Program_Output.png
+![alt text](./Image/Program_Output.png)
 
 ## Graph
 
-Image/Graph.jpg
+![alt text](./Image/Graph.jpg)
